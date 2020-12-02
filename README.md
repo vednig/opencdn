@@ -2,7 +2,7 @@
 Free Opensource CDN way for Non-Popular static JS , CSS and HTML.
 To create your own CDN
 
-**How to Use:**
+**How to Use:**<br>
 Add files insert.php and result.php to your servers.
 Distribute your content to all the servers.
 Save nearest server I.P. or Hostname to the user in localstorage.
