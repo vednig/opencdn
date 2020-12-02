@@ -1,8 +1,8 @@
 <?php
-$servername = "sql305.freesite.vip";
-$username = "frsiv_27284947";
-$password = "vEDANSH123";
-$dbname = "frsiv_27284947_store";
+$servername = "***";
+$username = "***";
+$password = "****";
+$dbname = "****";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
