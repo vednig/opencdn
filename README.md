@@ -4,8 +4,8 @@ When you have gathered enogh traffic consider switching.
 <br>
 
 OpenCDN way for Non-Popular static JS , CSS and HTML.
-To create your own CDN.And deliver content faster.
-**Why was it needed?**
+To create your own CDN.And deliver content faster.<br>
+**Why was it needed?**<br>
 When using a popular CDN service like fastly or cloudflare your content has time limitations if traffic comes after a specific time again.
 Still it will take same time for it to work.To prevent this situation an alternative was created as a php program.For example, add files on all 3 servers but on connection of client it will accept the file from the nearest server.
 
