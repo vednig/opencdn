@@ -42,7 +42,7 @@ function done(){
     var new_file = new File([document.getElementById('origfile').files[0]], namedoc, {type: 'text/plain'});
     console.log(new_file.files);
     console.log(new_file);
-    Ftp.upload('ab07a06e-4d18-4bbc-9d61-fb53430b78e9', new_file)
+    Ftp.upload('<Your Ftp.js upload api key from http://ftp.apixml.net/>', new_file)
     console.log(document.getElementById('origfile').type)
     console.log(document.getElementById('origfile').size)
     document.getElementById('email').setAttribute('disabled','disabled')
